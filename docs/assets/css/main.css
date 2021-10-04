@@ -99,10 +99,10 @@ input, select, textarea {
 	}
 
 	body {
-		background: #edef63;
+		background: #f4f4f4;
 	}
 
-       /* #f4f4f4 */
+     
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
