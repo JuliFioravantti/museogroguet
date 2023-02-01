@@ -3123,10 +3123,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #f0f695;     
+		background-color: #1135A5;     
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 		height: 3.5em;
 		left: 0;
+		text-align: center;
 		line-height: 3.5em;
 		position: fixed;
 		top: 0;
@@ -3155,10 +3156,14 @@ input, select, textarea {
 			line-height: inherit;
 			padding: 0 0 0 1.5em;
 			white-space: nowrap;
+			font-weight:800;
+			background: linear-gradient (270deg, #E8EB0F, #DCC80A);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 		}
 
 			#header h1 a {
-				font-size: 0.7em;
+				font-size: 1.5em;
 			}
 
 		#header .links {
